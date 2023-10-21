@@ -26,5 +26,12 @@ console.log(3+3)
 console.log("3"+3)
 console.log("3"+"3")
 console.log(2 + 2 + "3")
- 
+console.log(null > 0)
+console.log(null < 0);
+console.log(null >= 0);//true other is false
+console.log(null == 0);
 
+// == , >= work differenetly in js
+//=== strict check
+
+console.log(2 === "2")
