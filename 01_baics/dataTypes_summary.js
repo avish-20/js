@@ -16,5 +16,25 @@ let myObject = {
 const myFun = function(){
  
 }
+//stack (primitive), Heap(Non-primitive)
+let myYoutubename = "avish"
+let anotherName = myYoutubename // it gets copy not the referance
+
+anotherName = "saini"
+console.log(myYoutubename) // avish
+console.log(anotherName) //saini
+
+let user1 = {
+    email:"avish@gmail.com",
+    upi:"nnicn"
+}
+let user2 = user1
+user2.email = "saini@gmail.com"
+
+console.log(user1);
+console.log(user2);
+
+
+
 
 
