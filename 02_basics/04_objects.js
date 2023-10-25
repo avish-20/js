@@ -19,3 +19,22 @@ const obj2 = {3:"c",4:"d"}
 const obj3 = {...obj1,...obj2}
 console.log(obj3);
 
+const course = {
+    cousername:"js in  hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+//
+const {courseInstructor:instructor} = course
+
+console.log(instructor);
+
+const navbar = ()=>{
+
+}
+
+// {
+//     name:"avish",
+//     price:"999",
+//     coursename: "js in hindi"
+// }
